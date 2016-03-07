@@ -1,0 +1,17 @@
+name: forest
+version: 0.1.0
+
+authors:
+  - Marwan Rabbâa <waghanza@gmail.com>
+
+license: MIT
+
+dependencies:
+
+  kemal:
+    github: sdogruyol/kemal
+    version: ~> 0.9
+
+  pg:
+    github: will/crystal-pg
+    version: ~> 0.5
