@@ -10,7 +10,7 @@ module Forest
   # Close connection at exit
   at_exit do
     Signal::INT.trap {
-      PG.finish db
-    end
+      db.finish
+    }
   end
 end
