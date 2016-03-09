@@ -2,6 +2,12 @@ require "kemal"
 require "pg"
 require "./forest/*"
 
+struct Time
+  def to_json(io)
+    Time::Format.new("%FT%T.%LZ").to_json(self, io)
+  end
+end
+
 module Forest
   dsn = ARGV[0]
   begin
