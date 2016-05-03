@@ -2,6 +2,9 @@
 
 Restify you postgresql database
 
+[![Dependency Status](https://shards.rocks/badge/github/waghanza/forest/status.svg)](https://shards.rocks/github/waghanza/forest)
+[![devDependency Status](https://shards.rocks/badge/github/waghanza/forest/dev_status.svg)](https://shards.rocks/github/waghanza/forest)
+
 :warning: Work in progress :warning:
 
 ## Contributing
