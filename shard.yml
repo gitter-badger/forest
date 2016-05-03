@@ -10,7 +10,7 @@ dependencies:
 
   kemal:
     github: sdogruyol/kemal
-    version: ~> 0.10.0
+    version: ~> 0.11.2
 
   pg:
     github: will/crystal-pg
