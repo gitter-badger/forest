@@ -2,11 +2,14 @@
 
 Restify you postgresql database
 
-:waring: Work in progress :warning:
+[![Dependency Status](https://shards.rocks/badge/github/waghanza/forest/status.svg)](https://shards.rocks/github/waghanza/forest)
+[![devDependency Status](https://shards.rocks/badge/github/waghanza/forest/dev_status.svg)](https://shards.rocks/github/waghanza/forest)
+
+:warning: Work in progress :warning:
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/forest/fork )
+1. Fork it ( https://github.com/waghanza/forest/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
