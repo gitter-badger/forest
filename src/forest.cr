@@ -10,7 +10,7 @@ module Forest
   get "/:table" do |env|
     table = env.params.url["table"]
     begin
-      result = db.exec("select * from #{table}")
+      results = db.exec("select * from #{table}")
     rescue e
       env.response.status_code = 404
     else
@@ -18,10 +18,28 @@ module Forest
     end
   end
 
+#  post "/:table" do |env|
+#    table = env.params.url["table"]
+#    errcount = 0
+#    rows = env.params.json["_json"] as Array(JSON::Type)
+#    rows.each do |row|
+#      err = table.insert row as Hash
+#      if err != nil
+#        errcount += 1
+#      end
+#    end
+#    if errcount > 0
+#      env.response.status_code = 500
+#    else
+#      env.response.status_code = 201
+#    end
+#  end
+
+
   # Close connection at exit
-  at_exit do
-    Signal::INT.trap {
-      db.finish
-    }
-  end
+#  at_exit do
+#    Signal::INT.trap {
+#      db.finish
+#    }
+#  end
 end
