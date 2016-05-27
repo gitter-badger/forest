@@ -1,5 +1,7 @@
 # forest
 
+[![Join the chat at https://gitter.im/waghanza/forest](https://badges.gitter.im/waghanza/forest.svg)](https://gitter.im/waghanza/forest?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Restify you postgresql database
 
 [![Dependency Status](https://shards.rocks/badge/github/waghanza/forest/status.svg)](https://shards.rocks/github/waghanza/forest)
